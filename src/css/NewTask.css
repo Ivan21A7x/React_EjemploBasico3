@@ -1,0 +1,19 @@
+.floating-btn {
+    position: fixed; /* Fijo en la pantalla */
+    bottom: 20px;    /* Distancia desde la parte inferior */
+    right: 20px;     /* Distancia desde la parte derecha */
+    background-color: #f76c6c; /* Color de fondo */
+    color: white;    /* Color del texto */
+    border: none;    /* Sin borde */
+    border-radius: 50%; /* Botón circular */
+    width: 60px;     /* Anchura del botón */
+    height: 60px;    /* Altura del botón */
+    font-size: 24px; /* Tamaño de la fuente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra del botón */
+    cursor: pointer; /* Cambio de cursor al pasar el ratón */
+  }
+  
+  .floating-btn:hover {
+    background-color: #f53b3b; /* Color de fondo al pasar el ratón */
+  }
+  
