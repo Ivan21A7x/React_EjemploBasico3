@@ -1,6 +1,5 @@
 import './App.css';
 import BoardComponent from './components/BoardComponent';
-import NewTaskComponent from './components/NewTaskComponent';
 import TitleComponent from './components/TitleComponent';
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
 
       <div>
         <BoardComponent />
-        <NewTaskComponent />
 
       </div>
 
