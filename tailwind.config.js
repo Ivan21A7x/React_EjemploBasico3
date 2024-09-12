@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'customYellow': '#ffffc6',  // Amarillo para notas
+        'customYellow': '#FFFFC6',  // Amarillo para notas
         'custom-green': '#4CAF50',
       },
     },
