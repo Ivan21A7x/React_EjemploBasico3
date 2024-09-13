@@ -23,7 +23,7 @@ export default function SecDoingComponent({ tasks, onMoveTask, onUpdateTask }) {
     >
       <h2 className="text-xl font-bold mb-4">Doing List</h2>
       
-      <div ref={tasksRef} className="border border-black p-4 min-h-[200px]">
+      <div ref={tasksRef} className="p-4 min-h-[200px]">
         {tasks.map(task => (
           <TaskComponent 
             key={task.id} 
