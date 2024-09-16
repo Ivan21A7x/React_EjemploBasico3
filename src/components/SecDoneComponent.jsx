@@ -12,7 +12,9 @@ export default function SecDoneComponent({ tasks, onMoveTask, onUpdateTask }) {
   const handleDrop = (section) => (e) => {
     const task = JSON.parse(e.dataTransfer.getData('task'));
     const from = e.dataTransfer.getData('from');
-    onMoveTask(task, from, section);
+    if (from !== 'done') {
+      onMoveTask(task, from, section);
+    }
   };
 
   return (

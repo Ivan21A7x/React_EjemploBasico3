@@ -12,7 +12,9 @@ export default function SecToDoComponent({ tasks, onMoveTask, onUpdateTask }) {
   const handleDrop = (section) => (e) => {
     const task = JSON.parse(e.dataTransfer.getData('task'));
     const from = e.dataTransfer.getData('from');
-    onMoveTask(task, from, section);
+    if (from !== 'todo') {
+      onMoveTask(task, from, section);      
+    }
   };
 
   return (
